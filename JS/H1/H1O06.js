@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
   noStroke();
-  fill('mediumaquamarine');
+  fill('thisle');
   translate(50,50);
   rect(0,0,100,100);
   
@@ -18,7 +18,7 @@ function draw() {
   
   translate(140,0);
   // BEGIN aanpassing
-  
+ push();
   stroke('cornsilk');
   strokeWeight(20);
   fill('teal');
@@ -28,6 +28,7 @@ function draw() {
   
   translate(140,0);
   rect(0,0,100,100);
+  pop();
   translate(140,0);
   rect(0,0,100,100);  
 }
