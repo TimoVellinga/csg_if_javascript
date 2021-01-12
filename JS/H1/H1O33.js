@@ -18,13 +18,13 @@ function tekenTegel(x,y,s) {
   scale(s);
   translate(x,y);
   noStroke();
-  fill('rosybrown');
-  triangle(0,0,25,25,50,0);  
+  fill('yellow');
+  triangle(25,25,50,0,50,50);  
   fill('darkred');
-  triangle(0,0,25,25,0,50);
-  fill('rosybrown');
-  triangle(0,50,25,25,25,50);
-  fill('palevioletred');
+  triangle(25,25,0,0,50,0);
+  fill('gold');
+  triangle(0,0,25,25,0,25);
+  fill('blue');
   rect(25,25,25,25);
   pop();
 }
